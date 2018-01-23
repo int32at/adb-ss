@@ -1,0 +1,3 @@
+adb shell screencap -p /sdcard/$1
+adb pull /sdcard/$1
+adb shell rm /sdcard/$1
